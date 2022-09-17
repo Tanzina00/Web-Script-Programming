@@ -1,0 +1,58 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    width:100%;
+    display: block;
+}
+video{
+    width:100%;
+    max-width: 500px;
+}
+form{
+    background-color: #000000;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 20px 50px 20px 50px;
+    border-radius: 20px;
+    color:white;
+    
+}
+input, select{
+    width:100%;
+    line-height: 32px;
+}
+form h2{
+    text-align:center;
+}
+.wrapper{
+    background: url(../image/bg.jpg);
+    background: linear-gradient(241deg, red, #001ffff2);
+    /*background: radial-gradient(#ff0081, #2c003e);*/
+}
+.submit-btn{
+    width:auto;
+    background:green;
+    padding:10px;
+}
+.top{
+    background:#f7f7f7;
+}
+.middle{
+    background: black;
+    color:#fff;
+}
+header{
+     
+    width: 100%;
+    background: black;
+    color: #fff;
+    padding: 10px 0;
+
+}
+ul, li{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    padding:10px;
+}
