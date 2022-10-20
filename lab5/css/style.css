@@ -1,0 +1,60 @@
+/***************** Global Styles *****************/
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    width:100%;
+    display: block;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/***************** End Global Styles *****************/
+
+/***************** Form Styles *****************/
+.wrapper h1{
+    text-align: center;
+    margin: 20px 0;
+}
+.error {
+    color: red;
+    font-size: 20px;
+    text-align: left;
+    width:100%;
+}
+form {
+    background-color: #f7f7f7;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 20px 50px 20px 50px;
+    border-radius: 20px;
+    color: #222;
+    box-shadow: 0px 2px 9px 1px #ccc;
+}
+input, select,textarea {
+    width: 100%;
+    line-height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    min-height: 40px;
+}
+
+.btn{
+    width: 100%;
+    background: #333;
+    border-radius: 8px;
+    padding: 7px;
+    margin: 7px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/***************** End Form Styles *****************/
