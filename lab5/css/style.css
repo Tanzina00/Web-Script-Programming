@@ -56,5 +56,8 @@ input, select,textarea {
     text-transform: uppercase;
     font-weight: 500;
 }
-
+button.btn{
+    line-height: 35px;
+    border: none;
+}
 /***************** End Form Styles *****************/
